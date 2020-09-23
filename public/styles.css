@@ -1,3 +1,89 @@
+@import url(https://fonts.googleapis.com/css2?family=Lobster&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Courier+Prime:wght@100;200;300;400;500;600;700&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier Prime", monospace;
+}
+
 body {
-  background-color: red;
+  overflow-x: hidden;
+}
+
+header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Lobster", display;
+  font-size: 1.6rem;
+  margin-left: 1.5rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.heroSection {
+  position: relative;
+}
+
+.headline {
+  margin: 3rem 1.5rem 2rem 1.5rem;
+  font-size: 1.7rem;
+}
+
+.heroimg {
+  max-width: 100%;
+}
+
+.millerHeadline {
+  font-size: 1.7rem;
+}
+
+.miller-display {
+  margin-top: 3rem;
+  display: flex;
+  height: 200px;
+}
+
+.miller-bag-pic {
+  max-width: 40%;
+  margin-left: 1.5rem;
+  object-fit: cover;
+}
+
+.miller-bag-details h3 {
+  margin: 1rem 1.5rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.miller-bag-details p {
+  margin: 0 1.5rem;
+}
+.miller-bag-details button {
+  margin: 1rem 0 1rem 1.5rem;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+.miller-bag-details button:hover {
+  outline: 3px solid rgb(151, 115, 47);
+}
+
+@media screen and (max-width: 335px) {
+  .miller-display {
+    flex-direction: column;
+  }
+  .miller-bag-pic {
+    max-width: 70%;
+  }
 }
