@@ -19,7 +19,10 @@
 body {
   overflow-x: hidden;
 }
-
+.wraper {
+  max-width: 1100px;
+  margin: auto;
+}
 header {
   height: 80px;
   display: flex;
@@ -48,7 +51,7 @@ main {
 
 .heroimg {
   width: 100%;
-  height: 300px;
+  height: 400px;
   background-image: url("https://images.unsplash.com/photo-1532697057284-bbe526e18cdb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
   background-attachment: fixed;
   background-position: center;
@@ -121,4 +124,37 @@ main {
   color: white;
   font-size: 1.5rem;
   margin: 1rem;
+}
+
+/* footer */
+footer {
+  background-color: rgb(7, 7, 7);
+  color: white;
+  padding: 1.5rem;
+}
+footer .author {
+  font-size: 1.5rem;
+}
+
+footer .message {
+  color: rgb(221, 221, 221);
+  margin-top: 1rem;
+}
+
+footer .unsplash {
+  margin-top: 1rem;
+}
+
+footer .unsplash a {
+  color: red;
+}
+
+@media screen and (min-width: 700px) {
+  .vidpromo {
+    /* height: 600px; */
+    overflow: hidden;
+  }
+  .actualvid {
+    height: auto;
+  }
 }
