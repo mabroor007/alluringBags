@@ -1,0 +1,23 @@
+{
+  "name": "alluringbags",
+  "version": "1.0.0",
+  "description": "This is a static web site for alluring company",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mabroor007/alluringBags.git"
+  },
+  "author": "Mabroor Ahmad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mabroor007/alluringBags/issues"
+  },
+  "homepage": "https://github.com/mabroor007/alluringBags#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}
