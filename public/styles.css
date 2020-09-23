@@ -54,11 +54,12 @@ main {
 .miller-display {
   margin-top: 3rem;
   display: flex;
+  flex-direction: column;
   height: 200px;
 }
 
 .miller-bag-pic {
-  max-width: 40%;
+  max-width: 70%;
   margin-left: 1.5rem;
   object-fit: cover;
 }
@@ -84,11 +85,3 @@ main {
   outline: 3px solid rgb(151, 115, 47);
 }
 
-@media screen and (max-width: 335px) {
-  .miller-display {
-    flex-direction: column;
-  }
-  .miller-bag-pic {
-    max-width: 70%;
-  }
-}
