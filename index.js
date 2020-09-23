@@ -6,6 +6,9 @@ const app = express();
 // view engine setup
 app.set("view engine", "ejs");
 
+// static file setup
+app.use(express.static('public'));
+
 // Routes
 app.get("/", (req, res) => {
   res.render("main");
